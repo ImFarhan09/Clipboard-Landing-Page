@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
+  
+  <title>Clipboard landing page</title>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+  body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+  }
+
+  p{
+    color: hsl(201, 11%, 66%);
+    font-size: 20px;
+  }
+
+  header{
+    background-image:url(./images/bg-header-desktop.png) ;
+    height: 50vh;
+    margin: 0;
+    /* border: 1px solid black; */
+    /* box-shadow: 0 10px 8px whitesmoke; */
+  }
+
+  header img{
+    padding-top: 100px;
+  }
+
+  header h1{
+    font-size: 50px;
+  }
+
+  #btn{
+    margin-top: 40px;
+  }
+
+  .small{
+    font-size: 17px;
+    word-spacing: 1.5px;
+  }
+
+  .big{
+    font-size: 37px;
+  }
+
+  #head-content{
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+
+  #head-content{
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+  #showcase-1{
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 100px;
+  }
+
+  #showcase-1 img{
+    position: relative;
+    top: 0;
+    left: -35px;
+  }
+
+  #showcase-1 p{
+    font-size: 15px;
+  }
+
+  #showcase-1 ul li{
+    margin-bottom: 70px;
+  }
+
+  .logo-1{
+    width: 745 ;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  #showcase-2{
+    margin-bottom: 70px;
+  }
+
+  #showcase-2 p{
+    margin-bottom: 100px;
+  }
+
+  #Information{
+    margin-bottom: 100px;
+  }
+
+  table{
+    margin: 0px auto; 
+  }
+
+  .table p{
+    font-size: 15px;
+    margin-left: 80px;
+    margin-right: 30px;
+    margin-top: 0;
+  }
+
+  #table1{
+    margin-bottom: 130px;
+  }
+
+  #table2 tr td{
+    padding: 5px 40px;
+  }
+
+  #bottom-content{
+    margin-bottom: 150px;
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 25vh;
+    background-color: hsl(220,18%,97%);
+  }
+
+  .social{
+    margin-left: 20px;
+  }
+  .social span{
+    margin-left: 20px;
+  }
+
+  .info td{
+    /* background-color: yellow; */
+    padding: 2px 30px;
+    text-align: left;
+  }
+
+  .info p{
+    color: hsl(206,3%,45%);
+    margin: 0;
+    padding: 10px 0;
+    font-size: 18px;
+  }
+
+  .logo-2{
+    width: 60px;
+    height: 60px;
+  }
+
+  .ios{
+    width: 200px;
+    height: 50px ;
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 50px;
+    border: none;
+    border-bottom: 4px solid hsl(169,67%,38%);
+    color: whitesmoke;
+    padding: 10px 20px;
+    box-shadow: 0 6px 12px hsl(171, 78%, 62%);
+    margin: 10px;
+    /* font-weight: bold; */
+    font-size: 17px;
+  }
+
+  .ios:hover{
+    cursor: pointer;
+  }
+
+  .mac{
+    width: 200px;
+    height: 50px ;
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 50px;
+    border: none;
+    border-bottom: 4px solid hsl(233,44%,55%);
+    color: whitesmoke;
+    padding: 10px 20px;
+    box-shadow: 0 6px 12px hsl(233, 71%, 74%);
+    margin: 10px;
+    /* font-weight: bold; */
+    font-size: 17px;
+  }
+  .mac:hover{
+    cursor: pointer;
+  }
+  .link:hover{
+    cursor: pointer;
+  }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img class="logo-1" src="./images/logo.svg" alt="logo">
+    <h1>A history of everything you copy</h1>
+  </header>
+
+  <div id="head-content">
+    <p>Clipboard allows you to track and organize everything you 
+      copy. Instantly <br> access your clipboard on all your devices.</p>
+      <div id="btn">
+        <button class="ios">Download for iOS</button>
+        <button class="mac">Download for Mac</button>
+      </div>
+  </div>
+
+  <div id="head-content-2">
+    <h2 class="big">Keep track of your snippets</h2>
+    <p class="small">Clipboard instantly stores any item you copy in the cloud, 
+      meaning you can access <br> your snippets immediately on all your 
+        devices. Our Mac and iOS apps will help you <br> organize everything.</p>
+  </div>
+
+  <div id="showcase-1">
+    <img class="pc" src="./images/image-computer.png" alt="pc">
+    <ul>
+      <li>
+        <h3>Quick Search</h3>
+        <p>Easily search your snippets by content,<br> category, web address, application, and more.</p>
+      </li>
+      <li>
+        <h3>iCloud Sync</h3>
+        <p>Instantly saves and syncs snippets across all <br> your devices.</p>
+      </li>
+      <li>
+        <h3>Complete History</h3>
+        <p>Retrieve any snippets from the first moment <br> you started using the app.</p>
+      </li>
+    </ul>
+  </div>
+
+  <div id="showcase-2">
+    <h2 class="big">Access Clipboard anywhere</h2>
+    <p class="small">Whether you’re on the go, or at your computer, you can access all your Clipboard <br>snippets in a few simple clicks.</p>
+    <img class="device" src="./images/image-devices.png" alt="device">
+  </div>
+
+  <div id="Information">
+    <h2 class="big">Supercharge your workflow</h2>
+    <p class="small"> We’ve got the tools to boost your productivity.</p>
+    <table class="table" id="table1">
+      <tr>
+        <td>
+          <img src="./images/icon-blacklist.svg" alt="blacklist">
+        </td>
+        <td>
+          <img src="./images/icon-text.svg" alt="text">
+        </td>
+        <td>
+          <img src="./images/icon-preview.svg" alt="preview">
+        </td>
+      </tr>
+      <tr>
+        <th><h3>Create blacklists</h3></th>
+        <th><h3>Plain text snippets</h3></th>
+        <th><h3>Sneak preview</h3></th>
+      </tr>
+      <tr>
+        <td>
+          <p>Ensure sensitive information never makes its <br> way to your clipboard by excluding certain <br> sources.</p>
+        </td>
+        <td>
+          <p>Remove unwanted formatting from copied text <br> for a consistent look.</p>
+        </td>
+        <td>
+          <p>Quick preview of all snippets on your Clipboard <br> for easy access.</p>
+        </td>
+      </tr>
+    </table>
+    
+    <table class="table" id="table2">
+      <tr>
+        <td><img src="./images/logo-google.png" alt="google"></td>
+        <td><img src="./images/logo-ibm.png" alt="ibm"></td>
+        <td><img src="./images/logo-microsoft.png" alt="microsoft"></td>
+        <td><img src="./images/logo-hp.png" alt="hp"></td>
+        <td><img src="./images/logo-vector-graphics.png" alt="vector"></td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="bottom-content">
+    <h2 class="big">Clipboard for iOS and Mac OS</h2>
+    <p class="small">Available for free on the App Store. Download for Mac or iOS, sync with iCloud and <br> you’re ready to start adding to your clipboard.</p>
+    <button class="ios">Download for iOS</button>
+    <button class="mac">Download for Mac</button>
+  </div>
+
+  <footer class="foot-content">
+    <div><img class="logo-2" src="./images/logo.svg" alt="logo"></div>
+
+    <div>
+      <table class="info">
+        <tr>
+          <td><p class="link">FAQs</p></td>
+          <td><p class="link">Privacy Policy</p></td>
+          <td><p class="link">Install Guide</p></td>
+        </tr>
+        <tr>
+          <td><p class="link">Contact Us</p></td>
+          <td><p class="link">Press Kit</p></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    
+    <div class="social">
+      <span class="link"><img src="./images/icon-facebook.svg" alt="fb"></span>
+        <span class="link"><img src="./images/icon-twitter.svg" alt="tweet"></span>
+        <span class="link"><img src="./images/icon-instagram.svg" alt="insta"></span>
+    </div>
+  </footer>
+
+</body>
+</html>
